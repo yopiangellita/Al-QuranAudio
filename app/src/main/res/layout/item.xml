@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/tvsurahlatin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Al-Fatihah"
+                android:textColor="#015353"
+                style="@style/TextAppearance.AppCompat.Title">
+            </TextView>
+
+            <TextView
+                android:paddingTop="2dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/tvterjemahansurah"
+                android:layout_below="@+id/tvsurahlatin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Al-Fatihah">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvsuraharab"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الفاتحة"
+                android:textColor="#015353"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
